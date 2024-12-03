@@ -8,6 +8,7 @@ using namespace std;
 #define rsort(arr)sort(arr.rbegin(),arr.rend())
 #define rev(arr) reverse(arr.begin(),arr.end())
 #define vi vector<int>
+#define pi pair<int,int>
 int main()
 {
     int t;
