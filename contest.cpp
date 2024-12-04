@@ -9,6 +9,9 @@ using namespace std;
 #define rev(arr) reverse(arr.begin(),arr.end())
 #define vi vector<int>
 #define pi pair<int,int>
+#define pb push_back
+#define mii map<int,int>
+#define mci map<char,int>
 int main()
 {
     int t;
