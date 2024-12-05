@@ -12,12 +12,15 @@ using namespace std;
 #define pb push_back
 #define mii map<int,int>
 #define mci map<char,int>
+void solve(){
+    
+}
 int main()
 {
     int t;
     cin>>t;
     while(t--){
-        
+        solve();
     }
 
     return 0;
