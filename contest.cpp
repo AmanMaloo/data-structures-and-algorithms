@@ -4,8 +4,8 @@ using namespace std;
 #define vl vector<ll>
 #define f(i,n) for(ll i = 0 ; i < n ; i++)
 #define rf(i,n) for(ll i = n-1;i>=0;i--)
-#define sort(arr) sort(arr.begin(),arr.end())
-#define rsort(arr)sort(arr.rbegin(),arr.rend())
+#define so(arr) sort(arr.begin(),arr.end())
+#define rs(arr)sort(arr.rbegin(),arr.rend())
 #define rev(arr) reverse(arr.begin(),arr.end())
 #define vi vector<int>
 #define pi pair<int,int>
