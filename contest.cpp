@@ -15,6 +15,7 @@ typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_t
 #define pb push_back
 #define mii map<int,int>
 #define mci map<char,int>
+#define mod 1000000007
 void solve(){
     
 }
