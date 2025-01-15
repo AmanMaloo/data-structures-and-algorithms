@@ -39,7 +39,7 @@ int main(){
     build(0,0,n-1,arr,seg);
     ll q;
     cin>>q;
-    f(i,n){
+    f(i,q){
         ll l,r;
         cin>>l>>r;
         cout<<query(0,0,n-1,l,r,seg)<<endl;
