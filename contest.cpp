@@ -17,6 +17,7 @@ typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_t
 #define mci map<char,int>
 #define mod 1000000007
 #define yes cout<<"YES\n";
+#define endl "\n"
 #define no cout<<"NO\n";
 void solve(){
     
