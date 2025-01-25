@@ -3,10 +3,9 @@ using namespace std;
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ordered_set;
-#define ll long long
-#define vl vector<ll>
-#define f(i,n) for(ll i = 0 ; i < n ; i++)
-#define rf(i,n) for(ll i = n-1;i>=0;i--)
+#define int long long
+#define f(i,n) for(int i = 0 ; i < n ; i++)
+#define rf(i,n) for(int i = n-1;i>=0;i--)
 #define so(arr) sort(arr.begin(),arr.end())
 #define rs(arr)sort(arr.rbegin(),arr.rend())
 #define rev(arr) reverse(arr.begin(),arr.end())
@@ -22,7 +21,7 @@ typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_t
 void solve(){
     
 }
-int main()
+signed main()
 {
     int t = 1;
     cin>>t;
