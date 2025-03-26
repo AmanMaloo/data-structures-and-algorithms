@@ -10,6 +10,9 @@ using namespace std;
 #define rs(arr)sort(arr.rbegin(),arr.rend())
 #define rev(arr) reverse(arr.begin(),arr.end())
 #define vi vector<int>
+#define v2 vector<vi>
+#define v3 vector<v2>
+#define v4 vector<v3>
 #define pi pair<int,int>
 #define pb push_back
 #define mii map<int,int>
