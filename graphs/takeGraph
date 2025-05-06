@@ -1,0 +1,15 @@
+void take_ug(v2 &adj , int edges){
+    f(i,edges){
+        int u,v;
+        cin>>u>>v;
+        adj[u].pb(v);
+        adj[v].pb(u);
+    }
+}
+void take_dg(v2 &adj , int edges){
+    f(i,edges){
+        int u,v;
+        cin>>u>>v;
+        adj[u].pb(v);
+    }
+}
