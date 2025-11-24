@@ -3,9 +3,6 @@
 */    
 #include <bits/stdc++.h>
 using namespace std;
-//#include <ext/pb_ds/assoc_container.hpp>
-//#include <ext/pb_ds/tree_policy.hpp>
-//typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ordered_set;
 #define int long long
 #define f(i,n) for(int i = 0 ; i < n ; i++)
 #define rf(i,n) for(int i = n-1;i>=0;i--)
@@ -21,9 +18,40 @@ using namespace std;
 #define mii map<int,int>
 #define mci map<char,int>
 #define mod 1000000007
-#define yes cout<<"YES\n";
+#define haan cout<<"YES\n";
+#define nahi cout<<"NO\n";
 #define endl "\n"
-#define no cout<<"NO\n";
+int add(int a , int b ) {return (a+b)%mod;}
+int mul(int a , int b) {return (a*b)%mod;}
+int sub(int a , int b){ return (a-b+mod)%mod;}
+int power(int a , int b){
+    int ans = 1;
+    while(b){
+        if(b&1) ans = mul(ans,a);
+        b>>=1;
+        a = mul(a,a);
+    }
+    return ans;
+}
+//#include <ext/pb_ds/assoc_container.hpp>
+//#include <ext/pb_ds/tree_policy.hpp>
+//typedef __gnu_pbds::tree<int, __gnu_pbds::null_type, less<int>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ordered_set;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 void solve(){
     
 }
