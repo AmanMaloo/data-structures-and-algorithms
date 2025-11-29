@@ -21,6 +21,8 @@ using namespace std;
 #define haan cout<<"YES\n";
 #define nahi cout<<"NO\n";
 #define endl "\n"
+#define amanmaloo ios_base::sync_with_stdio(false); cin.tie(nullptr);
+
 int add(int a , int b ) {return (a+b)%mod;}
 int mul(int a , int b) {return (a*b)%mod;}
 int sub(int a , int b){ return (a-b+mod)%mod;}
@@ -57,8 +59,7 @@ void solve(){
 }
 signed main()
 { 
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    amanmaloo
     int t = 1;
     cin>>t;
     while(t--){
