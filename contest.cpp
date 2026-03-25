@@ -26,7 +26,7 @@ using namespace std;
 #define amanmaloo ios_base::sync_with_stdio(false); cin.tie(nullptr);
 
 int add(int a , int b ) {return (a+b)%mod;}
-int mul(int a , int b) {return (a*b)%mod;}
+int mul(int a , int b) {return ((a%mod)*(b%mod))%mod;}
 int sub(int a , int b){ return (a-b+mod)%mod;}
 int power(int a , int b){
     int ans = 1;
