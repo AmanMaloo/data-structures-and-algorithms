@@ -24,6 +24,7 @@ using namespace std;
 #define nahi cout<<"NO\n";
 #define endl "\n"
 #define amanmaloo ios_base::sync_with_stdio(false); cin.tie(nullptr);
+#define printVec(arr) for(int v : arr) cout<<v<<" ";cout<<endl;
 
 int add(int a , int b ) {return (a+b)%mod;}
 int mul(int a , int b) {return ((a%mod)*(b%mod))%mod;}
